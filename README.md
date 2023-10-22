@@ -17,4 +17,4 @@ To get started with the Energy Data Parsing and Aggregation API, you need to hav
 **2. Computation Functions**
 The API includes several computation functions that perform essential tasks. These functions are responsible for data retrieval, parsing, filtering, aggregation, and visualization.
 
-
+ss
