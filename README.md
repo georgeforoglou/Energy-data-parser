@@ -19,7 +19,10 @@ The API includes several computation functions that perform essential tasks. The
 
 **3. API Endpoints:**
 The API provides the following endpoint for interacting with energy trade data:
+
 Endpoint: http://localhost:5000/api/energy-data?date=YYYYMMDD
+
 Method: GET
+
 Parameters:
 date (query parameter): The target date for which you want to retrieve energy trade data in the format YYYYMMDD.
