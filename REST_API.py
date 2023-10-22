@@ -10,14 +10,13 @@ app = Flask(__name__)
 logger = logging.getLogger("api_logger")
 logger.setLevel(logging.INFO)
 
-# Create a file handler and set the logging format
+# Create a file handler and set a logging format
 file_handler = logging.FileHandler('api.log')
 formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 file_handler.setFormatter(formatter)
 
 # Add the file handler to the logger
 logger.addHandler(file_handler)
-
 
 @app.route('/api/energy-data', methods=['GET'])
 def get_energy_data():

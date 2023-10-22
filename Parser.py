@@ -6,14 +6,15 @@ from datetime import datetime
 import plotly.express as px
 
 
+# Function to check if the date string matches the format YYYYMMDD
 def is_valid_date(date_string):
     try:
-        # Check if the date string matches the format YYYYMMDD
         datetime.strptime(date_string, '%Y%m%d')
         return True
     except ValueError:
         return False
 
+# Function for aggregated data visualization
 def data_visualization(target_date, data):
     fig = px.line(data, x='SORT', y='TOTAL_TRADES', 
                     labels={
@@ -47,6 +48,7 @@ def download_xlsx_file(target_date):
         print(f'\nError: HTTP Status Code {response.status_code}')
     return response.status_code
 
+# Function fro data parsing and filtering
 def parse_and_filter_data(target_date):
     filename = f'{target_date}_EL-DAM_Results_ΕΝ_v01.xlsx'
     try:
@@ -67,6 +69,7 @@ def parse_and_filter_data(target_date):
         print(f'Error: {str(e)}')
         return None
 
+# Function for data aggregation
 def aggregate_data(target_date):
     filename = f'{target_date}_EL-DAM_Results_ΕΝ_v01.xlsx'
     try:
