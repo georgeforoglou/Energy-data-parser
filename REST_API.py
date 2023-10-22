@@ -20,7 +20,7 @@ logger.addHandler(file_handler)
 
 @app.route('/api/energy-data', methods=['GET'])
 def get_energy_data():
-    # Get the target date from the query parameter
+    # Get the target date from the query parameter 
     target_date = request.args.get('date')
 
     # Validate the date
