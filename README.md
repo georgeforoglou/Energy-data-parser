@@ -11,10 +11,15 @@ Table of Contents
 4. Error Handling
 5. Examples
 
-**1. Getting Started**
+**1. Getting Started:**
 To get started with the Energy Data Parsing and Aggregation API, you need to have Python installed on your system, along with the required libraries specified in the requirements.txt.
 
-**2. Computation Functions**
+**2. Computation Functions:**
 The API includes several computation functions that perform essential tasks. These functions are responsible for data retrieval, parsing, filtering, aggregation, and visualization.
 
-ss
+**3. API Endpoints:**
+The API provides the following endpoint for interacting with energy trade data:
+Endpoint: http://localhost:5000/api/energy-data?date=YYYYMMDD
+Method: GET
+Parameters:
+date (query parameter): The target date for which you want to retrieve energy trade data in the format YYYYMMDD.
