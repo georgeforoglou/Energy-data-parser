@@ -7,7 +7,6 @@ Table of Contents
 1. Getting Started
 2. Computation Functions
 3. API Endpoints
-3.1. Fetch Energy Data
 4. Error Handling
 5. Examples
 
