@@ -6,11 +6,6 @@ The Energy Data Parsing and Aggregation API is a RESTful service designed to fet
 Table of Contents
 1. Getting Started
 2. Computation Functions
-2.1. Check Valid Date Format
-2.2. Data Visualization
-2.3. Automated XLSX File Download
-2.4. Data Parsing and Filtering
-2.5. Data Aggregation
 3. API Endpoints
 3.1. Fetch Energy Data
 4. Error Handling
@@ -18,3 +13,8 @@ Table of Contents
 
 **1. Getting Started**
 To get started with the Energy Data Parsing and Aggregation API, you need to have Python installed on your system, along with the required libraries specified in the requirements.txt.
+
+**2. Computation Functions**
+The API includes several computation functions that perform essential tasks. These functions are responsible for data retrieval, parsing, filtering, aggregation, and visualization.
+
+
