@@ -1,0 +1,4 @@
+1. Run requirements.txt for the necessary libraries
+2. Run the REST_API.py file locally 
+3. Access the API: http://localhost:5000/api/energy-data?date=YYYYMMDD, where YYYYMMDD is the target date.
+4. The API returns the aggregated data and opens a new window with a line chart with the sorts and the total trades. If there is an error during the execution of the code the Endpoint shoes the corresponding message.
