@@ -25,3 +25,6 @@ Method: GET
 
 Parameters:
 date (query parameter): The target date for which you want to retrieve energy trade data in the format YYYYMMDD.
+
+**4. Error Handling**
+The API includes error-handling mechanisms for various scenarios, such as invalid date formats, missing files, and bad requests. These error responses are provided with appropriate HTTP status codes.
