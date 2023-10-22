@@ -8,7 +8,6 @@ Table of Contents
 2. Computation Functions
 3. API Endpoints
 4. Error Handling
-5. Examples
 
 **1. Getting Started:**
 To get started with the Energy Data Parsing and Aggregation API, you need to have Python installed on your system, along with the required libraries specified in the requirements.txt.
